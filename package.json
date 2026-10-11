@@ -1,0 +1,11 @@
+{
+  "name": "add-pinyin-bookmarklet",
+  "version": "1.0.0",
+  "description": "Bookmarklet that adds pinyin above Chinese characters on any web page (HTML ruby text). Click again to remove.",
+  "scripts": { "build": "node scripts/build.js", "test": "node --test" },
+  "keywords": ["chinese and pinyin", "chinese with pinyin", "add pinyin to chinese text", "pinyin bookmarklet", "ruby", "mandarin", "hanzi"],
+  "license": "MIT",
+  "author": "Uranbek Anarbaev",
+  "homepage": "https://pinyin.hsk-tutor.com/guides/add-pinyin-to-chinese-webpages/",
+  "devDependencies": { "jsdom": "^24.0.0" }
+}

@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Add pinyin to any Chinese web page: bookmarklet</title>
+<meta name="description" content="A bookmarklet that adds pinyin above Chinese characters on any web page. Drag it to your bookmarks bar, click it on a Chinese page, click again to remove.">
+<style>body{font:17px/1.6 system-ui,sans-serif;max-width:680px;margin:40px auto;padding:0 16px;color:#172033}a.bm{display:inline-block;background:#2458d6;color:#fff;padding:12px 18px;border-radius:12px;text-decoration:none;font-weight:700}code{background:#eef3fb;padding:2px 6px;border-radius:6px}.zh{font-size:24px}</style></head>
+<body>
+<h1>Add pinyin to any Chinese web page</h1>
+<p>Drag this button to your bookmarks bar:</p>
+<p><a class="bm" href="javascript:(function(){var s=document.createElement('script');s.src='https://cdn.jsdelivr.net/gh/uranbekanarbaev/add-pinyin-bookmarklet@main/dist/add-pinyin.js?'+Date.now();document.head.appendChild(s)})();">Add pinyin</a></p>
+<p>Then open a page with Chinese text and click the bookmark. Click it again to remove the pinyin.</p>
+<p class="zh">Try it on this line: 银行行走，长大，你好世界。</p>
+<p>Need it on every page, with English meanings on hover? Use the <a href="https://chromewebstore.google.com/detail/chinese-to-pinyin/ljjmbedihaoacgeedgbkmakoibkekimn">Chinese to Pinyin extension</a> or the <a href="https://pinyin.hsk-tutor.com/">online converter</a>.</p>
+</body></html>
